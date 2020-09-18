@@ -17,11 +17,18 @@
   },
   "homepage": "https://github.com/cgray009/Emaily_Deployed#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
     "cookie-session": "^1.4.0",
     "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.5",
+    "lodash": "^4.17.20",
     "mongoose": "^5.10.6",
     "nodemon": "^2.0.4",
     "passport": "^0.4.1",
-    "passport-google": "^0.3.0"
+    "passport-google": "^0.3.0",
+    "path-parser": "^6.1.0",
+    "sendgrid": "^5.2.3",
+    "stripe": "^8.96.0"
   }
 }
