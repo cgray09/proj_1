@@ -12,7 +12,7 @@ import reducers from './reducers';
 import axios from 'axios';
 window.axios = axios;
 
-let e;
+let c;
 
 const store = createStore(reducers, {}, applyMiddleware(reduxThunk));
 
